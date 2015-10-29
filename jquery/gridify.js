@@ -70,6 +70,7 @@
                         });
                         columns[idx] += $item.innerHeight() + item_margin;
                     }
+                    $this.height(Math.max.apply(null,columns);
                 };
 
             $this.imagesLoaded(render);
